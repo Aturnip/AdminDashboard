@@ -5,90 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+
     <title>Admin Dasboard</title>
 </head>
+
 <body>
     <div class="sidebar">
-        <div class="logoimg">image</div>
-        <div class="logotxt">Dashboard</div>
-        <ul class="firstullogos">
-            <li>image</li>
-            <li>image</li>
-            <li>image</li>
-            <li>image</li>
-            <li>image</li>
-            <li>image</li>
-        </ul>
-        <ul class="firstul">
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ul>
-        <ul class="secondullogos">
-            <li>image</li>
-            <li>image</li>
-            <li>image</li>
-        </ul>
-        <ul class="secondul">
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
+        <div class="logoimg">
+            <img src="Images/view-dashboard.svg" height="64px">
+        </div>
+
+        <div class="logo-text">Dashboard</div>
+
+        <div class="sidebar-images-1">
+            <img src="Images/home.svg" height="32px">
+            <img src="Images/clipboard-account-outline.svg" height="32px">
+            <img src="Images/message.svg" height="32px">
+            <img src="Images/history.svg" height="32px">
+            <img src="Images/file-multiple.svg" height="32px">
+            <img src="Images/account-group.svg" height="32px">
+        </div>
+
+        <div class="sidebar-links-1">
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Messages</a>
+            <a href="">History</a>
+            <a href="">Tasks</a>
+            <a href="">Communities</a>
+        </div>
+
+        <div class="sidebar-images-2">
+            <img src="Images/cog-outline.svg" height="32px">
+            <img src="Images/lifebuoy.svg" height="32px">
+            <img src="Images/shield-account.svg" height="32px">
+        </div>
+
+        <div class="sidebar-links-2">
+            <a href="">Settings</a>
+            <a href="">Support</a>
+            <a href="">Privacy</a>
+        </div>
     </div>
+
+
+
+
     <div class="navbar">
-        <div class="searchBar">
-            <button class="searchBtn">Se</button>
+        <div class="navbar-searchbar">
+            <button class="navbar-search-button"><img src="Images/magnify.svg" height="24px"></button>
             <input type="text">
         </div>
-        <div class="contact">
-            <button class="bell">bell</button>
-            <div class="profilePic">profPic</div>
-            <div class="author">Me, author</div>
+
+        <div class="navbar-bell-contact">
+            <button class="navbar-bell-button"><img src="Images/bell-ring.svg" height="24px"></button>
+            <div class="profilePic"><img src="Images/turnip.png" height="32px"></div>
+            <div class="author">Jakub Rzepka</div>
         </div>
-        <div class="hiThereContainer">
-            <div class="profile">ProfPic</div>
-            <div class="hiThere">Hi there,</div>
-            <div class="hiThereAuthor">Me, author (nick)</div>
+
+        <div class="navbar-author">
+            <div class="profile"><img src="Images/turnip.png" height="72px"></div>
+            <div class="hiThere">
+                <div class="hi-there">Hi there,</div>
+                <div class="hi-there-author">Jakub Rzepka</div>
+            </div>
+            
         </div>
-        <div class="buttonsContainer">
-            <button class="new">New</button>
-            <button class="upload">Upload</button>
-            <button class="share">Share</button>
+
+        <div class="navbar-utility">
+            <button class="navbar-buttons">New</button>
+            <button class="navbar-buttons">Upload</button>
+            <button class="navbar-buttons">Share</button>
         </div>
     </div>
+
+
+
+
     <div class="main">
-        <div class="yourProjects">Your Projects</div>
-        <div class="projectsContainer">
-            <div class="projectCard">Project 1</div>
-            <div class="projectCard">Project 2</div>
-            <div class="projectCard">Project 3</div>
-            <div class="projectCard">Project 4</div>
-            <div class="projectCard">Project 5</div>
-            <div class="projectCard">Project 6</div>
+        <div class="main-your-projects-header">Your Projects</div>
+
+        <div class="main-projects-container">
+            <div class="main-projects-card">Project 1</div>
+            <div class="main-projects-card">Project 2</div>
+            <div class="main-projects-card">Project 3</div>
+            <div class="main-projects-card">Project 4</div>
+            <div class="main-projects-card">Project 5</div>
+            <div class="main-projects-card">Project 6</div>
         </div>
-        <div class="announcements">Announcements</div>
-        <div class="announcementsContainer">
+
+        <div class="main-announcements-header">Announcements</div>
+
+        <div class="main-announcements-container">
             <div class="announcement">announcement 1</div>
             <div class="announcement">announcement 2</div>
             <div class="announcement">announcement 3</div>
         </div>
-        <div class="trending">Trending</div>
-        <div class="treningContainer">
-            <ul class="treningLogosContainer">
-                <li class="trendingLogo">Logo 1</li>
-                <li class="trendingLogo">Logo 2</li>
-                <li class="trendingLogo">Logo 3</li>
-                <li class="trendingLogo">Logo 4</li>
-            </ul>
-            <ul class="trendingContactsContainer">
-                <li class="trendingContact">Contact 1</li>
-                <li class="trendingContact">Contact 2</li>
-                <li class="trendingContact">Contact 3</li>
-                <li class="trendingContact">Contact 4</li>
-            </ul>
+
+        <div class="main-trending-header">Trending</div>
+
+        <div class="main-trening-container">
         </div>
     </div>
 </body>
